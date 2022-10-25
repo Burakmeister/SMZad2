@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:id="@+id/question"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+        <Button
+            android:name="butTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/butTrue"
+            android:id="@+id/trueButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:name="butFalse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/butFalse"
+            android:id="@+id/falseButton"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="butNext"
+        android:text="@string/butNext"
+        android:id="@+id/nextButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="butAnswer"
+        android:text="@string/butAnswerMain"
+        android:id="@+id/answerBut" />
+</LinearLayout>
+

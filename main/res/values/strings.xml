@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PS2</string>
+    <string name="butTrue">Prawda</string>
+    <string name="butFalse">Fałsz</string>
+    <string name="butNext">Następny</string>
+    <string name="q1">Czy jeże mogą pić mleko?</string>
+    <string name="q2">Czy jeże są ślepe?</string>
+    <string name="q3">Czy jeża da się oswoić?</string>
+    <string name="q4">Czy jeże są roślinożerne?</string>
+    <string name="q5">Czy jeż gubi igły?</string>
+    <string name="correct">Dobra odpowiedź!</string>
+    <string name="incorrect">Zła odpowiedź :(</string>
+    <string name="answer">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="butAnswer">Pokaż odpowiedź</string>
+    <string name="butAnswerMain">Podpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź była już wyświetlona!</string>
+</resources>
